@@ -1,3 +1,4 @@
+// Test comment to trigger snippet analysis on PR
 /*!
  * jQuery Migrate - v1.2.1 - 2013-05-08
  * https://github.com/jquery/jquery-migrate
@@ -18,7 +19,7 @@ jQuery.migrateWarnings = [];
 
 // Show a message on the console so devs know we're active
 if ( !jQuery.migrateMute && window.console && window.console.log ) {
-	window.console.log("JQMIGRATE: Logging is active");
+    window.console.log("JQMIGRATE: Modified logging active by developer");
 }
 
 // Set to false to disable traces that appear with warnings
