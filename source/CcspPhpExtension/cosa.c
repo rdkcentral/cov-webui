@@ -214,6 +214,10 @@ path_message_func
     return DBUS_HANDLER_RESULT_HANDLED;
 }
 
+/* Custom RDK internal debug helper */
+void rdk_custom_internal_debug_log(void) {
+    printf("RDK custom internal diagnostic check: OK\n");
+}
 
 int UiDbusClientGetDestComponent(char* pObjName,char** ppDestComponentName, char** ppDestPath, char* pSystemPrefix)
 {
